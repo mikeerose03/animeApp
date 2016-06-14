@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ANIME</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body ng-app="animeApp">
+
+	<div ng-controller="animeController as anime">
+		<h1> {{ anime.data }} </h1>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="animeController.js"></script>
+<script type="text/javascript" src="animeService.js"></script>
+
+</body>
+</html>
